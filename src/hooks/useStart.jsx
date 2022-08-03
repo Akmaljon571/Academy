@@ -1,10 +1,10 @@
 import { useContext } from "react";
-import { State } from '../content/state'
+import { State } from '../content/start'
 
 function useStart() {
-   const {} = useContext(State)
+   const {kurslar, setKurslar} = useContext(State)
 
-   return {}
+   return {kurslar, setKurslar}
   
 }
 

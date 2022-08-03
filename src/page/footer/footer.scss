@@ -1,1 +1,51 @@
-@import "../../utils/scss/var.scss"
+@import "../../utils/scss/var.scss";
+
+.footer{
+    border: 2px solid #fff;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    background-color: #8DC8F0;
+    border-radius: 10px;
+    
+
+    &_arrow{
+        bottom: 0;
+        margin-top: 320px;
+        background-color: rgb(40, 40, 242);
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        border-radius: 50%;
+        font-size: 50px;
+        cursor: pointer;
+        border: 3px solid #58AA2C ;
+    }
+
+    &_list{
+        display: flex;
+        align-items: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 5px;
+    }
+
+    &_item{
+        padding: 10px;
+        padding-top: 12px;
+        background-color: blue;
+        border-radius: 15px;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        cursor: pointer;
+        border: 3px solid #58AA2C ;
+    }
+}

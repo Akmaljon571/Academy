@@ -6,7 +6,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    list-style-type: disc;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Source Sans Pro;
+    color: #fff;
 }
 
 body {
@@ -16,6 +19,11 @@ body {
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: black;
+    background-image: url(./img/photo_2022-07-15_20-49-15.jpg);
+    background-repeat: no-repeat;
+    background-position: 60% center ;
+    background-size: 70%;
   }
   
   code {
